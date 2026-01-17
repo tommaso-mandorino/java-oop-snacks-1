@@ -1,7 +1,7 @@
 package org.lessons.java.oop_snacks_1;
 
 public class Student {
-    
+
     private String firstName;
     private String lastName;
     private int age;
@@ -12,7 +12,7 @@ public class Student {
         this.age = age;
     }
 
-    String getFullString() {
+    String getFullInformation() {
         return this.firstName + " " + this.lastName + ", " + this.age + " anni.";
     }
 }

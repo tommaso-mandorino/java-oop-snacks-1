@@ -22,6 +22,6 @@
 
 2) Utilizzare un `array privato` per memorizzare gli `oggetti Studente` creati nello Snack 1.
 
-3) Implementa un **costruttore senza parametri** per `inizializzare il registro vuoto` e un **metodo pubblico** per `aggiungere studenti al registro`.
+3) Implementare un **costruttore senza parametri** per `inizializzare il registro vuoto` e un **metodo pubblico** per `aggiungere studenti al registro`.
 
 4) Aggiungere un **metodo** che `stampi la lista degli studenti`, **senza utilizzare metodi helper**.
