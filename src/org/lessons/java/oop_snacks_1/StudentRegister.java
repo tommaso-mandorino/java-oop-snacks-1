@@ -2,10 +2,17 @@ package org.lessons.java.oop_snacks_1;
 
 public class StudentRegister {
 
-    private Student[] students = {};
+    private Student[] students;
 
-    StudentRegister() {
-        
+    public StudentRegister() {
+        this.students =  new Student[0];
+    }
+
+    public Student[] getStudents() {
+        return this.students;
+    }
+    public void setStudents(Student[] students) {
+        this.students = students;
     }
 
     public void addStudent(Student student) {
